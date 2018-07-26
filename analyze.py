@@ -31,7 +31,7 @@ parser.add_argument("--good", help="source text file or directory containig text
 parser.add_argument("--nocase", help="if set, then all strings will NOT be changed to lower case",  action='store_false')
 parser.add_argument("--nopunct", help="if set, then punctuation will NOT be removed",  action='store_false')
 parser.add_argument("--nohtml", help="if set, then html tags will NOT be removed",  action='store_false', default=True)
-parser.add_argument("--min", help="minimal phrase length to take into consideration (default 1)", nargs='?', default=1)
+parser.add_argument("--min", help="minimal phrase length to take into consideration (default 5)", nargs='?', default=5)
 parser.add_argument("--max", help="maximal phrase length to take into consideration (default 10)", nargs='?', default=10)
 parser.add_argument("--top", help="numbers of results to display (default 10)", nargs='?', default=10)
 
